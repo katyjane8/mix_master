@@ -17,7 +17,6 @@ RSpec.feature "User submits a new artist" do
 
   context "the submitted data is invalid" do
     scenario "they see an error message" do
-      pending
       artist_image_path = "https://www.billboard.com/files/styles/article_main_image/public/media/Adele-Press-photo-2015-billboard-Columbia-1548.jpg"
 
       visit artists_path
